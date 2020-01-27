@@ -11,7 +11,7 @@ class Menu extends Component {
         <div id="rightMenuDiv">
           <div id="menuDivMenu">
             <div id="leftLineMenu"></div>
-            <p>Menu</p>
+            <p id="menuTitle">MENU</p>
             <div id="leftLineMenu"></div>
           </div>
         </div>

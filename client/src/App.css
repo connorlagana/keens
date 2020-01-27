@@ -21,6 +21,24 @@
   background-color: black;
 }
 
+#leftLineMenu {
+  border-top: solid;
+  border-color: white;
+  width: 10vw;
+}
+
 #menuDivMenu {
   color: white;
+  letter-spacing: 20px;
+  line-height: 1;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menuTitle {
+  padding: 30px;
+  padding-left: 51px;
+  text-align: center;
 }
