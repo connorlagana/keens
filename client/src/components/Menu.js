@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import imageMenu from "../images/imageMenu.jpeg";
+import imageMenu from "../images/imageMenu.jpg";
 
 class Menu extends Component {
   render() {

@@ -14,6 +14,7 @@
 #leftMenuDiv img {
   width: 50vw;
   height: 90vh;
+  object-fit: cover;
 }
 #rightMenuDiv {
   width: 50vw;
@@ -56,6 +57,7 @@
   justify-content: flex-start;
   text-align: center;
   text-decoration: underline;
+  margin-top: 20px;
 }
 
 #menuButton {
@@ -73,4 +75,5 @@
   color: white;
   height: 6vh;
   width: 18vw;
+  margin-top: 50px;
 }
