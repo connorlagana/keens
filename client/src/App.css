@@ -1,0 +1,91 @@
+.hero{
+  background: url("https://imgur.com/kL5p0JI.png");
+  background-size: cover;
+  height: 100vh;
+}
+
+.header{
+  /* border: 4px solid red; */
+  height: 235px;
+  background-color: rgba(255, 255, 255, 0.46);
+}
+
+.logo{
+  /* width: 15vh; */
+  height: 14vh;
+  margin-left: 10vw;
+  width: 20vw;
+  /* border: 4px solid red; */
+}
+
+.logoImage{
+  margin-top: 6vh;
+}
+
+.nav{
+  height: 4.5vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: row;
+  margin: 5vh auto;
+  margin-left: 12vw;
+
+}
+
+.nav > a{
+  width: 249px;
+  height: 35px;
+  font-family: Kailasa;
+  font-size: 1.1em;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.28;
+  letter-spacing: 5px;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+  
+}
+
+.resturantName{
+  width: 50vw;
+  height: 15vh;
+  font-family: Kailasa;
+  font-size: 1.5em;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.28;
+  letter-spacing: 10px;
+  text-align: center;
+  color: #ffffff;
+  margin: 23vh auto;
+  /* border: 4px solid red; */
+}
+
+.Reservations{
+  /* border: 4px solid red; */
+  align-items: center;
+  height: 7vh;
+  width: 15vw;
+  margin-top: 15vh;
+  background-color:rgba(255, 255, 255, 0.2); 
+}
+
+#reserveName{
+  /* width: 191px;
+  height: 29px; */
+  font-family: Kailasa;
+  margin: 0 auto;
+  font-size: 2em;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.28;
+  letter-spacing: 5px;
+  text-align: center;
+  color: #ffffff;
+}
+
