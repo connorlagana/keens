@@ -5,6 +5,8 @@ import Hero from './components/Hero'
 
 import Location from "./components/Location.js";
 import Menu from "./components/Menu.js";
+import About from "./components/About.js";
+import Footer from "./components/Footer.js"
 
 
 class App extends Component {
@@ -12,9 +14,11 @@ class App extends Component {
     return (
       <div className="App">
         {/* <h1>Hello World</h1> */}
-        <Hero/>
+        <Hero />
+        <About />
         <Menu />
         <Location />
+        <Footer />
       </div>
     );
   }
