@@ -8,7 +8,7 @@ class Location extends Component {
         <div>
           <div id="leftLocationDiv">
             <a href="https://www.google.com/maps/place/Keens+Steakhouse/@40.7506239,-73.987004,18.24z/data=!4m5!3m4!1s0x0:0xa89dbb19d96569cc!8m2!3d40.7507759!4d-73.9864754">
-              <img src={googleMaps} />
+              <img src={googleMaps} alt="loading"/>
             </a>
           </div>
         </div>
