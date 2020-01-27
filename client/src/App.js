@@ -6,6 +6,9 @@ import Header from './components/Header'
 
 import Location from "./components/Location.js";
 import Menu from "./components/Menu.js";
+import About from "./components/About.js";
+import Footer from "./components/Footer.js";
+import Review from "./components/Review.js";
 
 
 class App extends Component {
@@ -13,10 +16,12 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        {/* <h1>Hello World</h1> */}
-        <Hero/>
+        <Hero />
+        <About />
+        <Review />
         <Menu />
         <Location />
+        <Footer />
       </div>
     );
   }
