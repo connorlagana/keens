@@ -47,13 +47,19 @@
   height: 35px;
   font-family: Kailasa;
   font-size: 1.1em;
-  font-weight: bold;
+  font-weight: 200;
   font-stretch: normal;
   font-style: normal;
   letter-spacing: 5px;
   color: #ffffff;
   text-decoration: none;
   margin: 2px;
+  transition: 0.2s ease;
+}
+
+.nav a:hover {
+  color: #050221;
+  font-weight: 900;
 }
 
 .nav a:hover{
