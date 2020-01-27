@@ -2,6 +2,8 @@ import React from "react";
 import AwesomeSlider from "react-awesome-slider";
 import { styles } from "react-awesome-slider/dist/styles.css";
 
+
+
 import image_1 from "../images/image4.png";
 import image_2 from "../images/image1.jpg";
 import image_3 from "../images/image2.jpg";
