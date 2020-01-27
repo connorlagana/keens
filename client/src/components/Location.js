@@ -28,15 +28,15 @@ class Location extends Component {
           <div id="hours">
             <h1>HOURS</h1>
             <div id="belowHours">
-              <div>
+              <div className="belowHoursOperations">
                 <p>Monday to Friday</p>
                 <p>11:45am-10:45pm</p>
               </div>
-              <div>
+              <div className="belowHoursOperations">
                 <p>Saturday</p>
                 <p>5:00pm-10:00pm</p>
               </div>
-              <div>
+              <div className="belowHoursOperations">
                 <p>Sunday</p>
                 <p>5:00pm-9:30pm</p>
               </div>
