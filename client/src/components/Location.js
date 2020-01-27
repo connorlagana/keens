@@ -7,7 +7,9 @@ class Location extends Component {
       <div className="Location">
         <div>
           <div id="leftLocationDiv">
-            <img src={googleMaps} />
+            <a href="https://www.google.com/maps/place/Keens+Steakhouse/@40.7506239,-73.987004,18.24z/data=!4m5!3m4!1s0x0:0xa89dbb19d96569cc!8m2!3d40.7507759!4d-73.9864754">
+              <img src={googleMaps} />
+            </a>
           </div>
         </div>
         <div id="rightLocationDiv">
@@ -39,14 +41,6 @@ class Location extends Component {
                 <p>5:00pm-9:30pm</p>
               </div>
             </div>
-          </div>
-          <div className="specialsMenu">
-            <p>Desserts</p>
-            <p>Specialized Drinks</p>
-            <p>Wine</p>
-          </div>
-          <div>
-            <button id="menuButton">Private Events</button>
           </div>
         </div>
       </div>
