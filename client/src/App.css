@@ -54,6 +54,10 @@
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .resturantName {
   width: 50vw;
   height: 15vh;
