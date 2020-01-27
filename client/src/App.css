@@ -36,10 +36,13 @@
   justify-content: center;
   flex-direction: row;
   margin: 5vh auto;
-  margin-left: 12vw;
+  width: 100vw;
 }
 
-.nav > a {
+.nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 249px;
   height: 35px;
   font-family: Kailasa;
@@ -47,11 +50,10 @@
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.28;
   letter-spacing: 5px;
-  text-align: left;
   color: #ffffff;
   text-decoration: none;
+  margin: 2px;
 }
 
 .resturantName {
