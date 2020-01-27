@@ -12,7 +12,7 @@ class Hero extends Component {
             <h4 id="reserveName">Reservations</h4>
           </button>
         </div>
-        <div className="polygon" placeholder="scroll"></div>
+       <a href="#about"><div className="polygon"></div></a>
       </div>
     );
   }
