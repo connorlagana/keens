@@ -185,7 +185,7 @@
 
 #rightLocationDiv {
   width: 50vw;
-  height: 70vh;
+  height: 80vh;
   background-color: white;
   display: flex;
   justify-content: center;
@@ -228,6 +228,12 @@
   color: #050221;
 }
 
+#hours h1 {
+  font-size: 40px;
+  line-height: 1.3;
+  letter-spacing: 8px;
+}
+
 .belowHoursOperations p {
   font-size: 25px;
   font-weight: normal;
@@ -240,6 +246,8 @@
 }
 
 @media only screen and (max-width: 600px) {
+  * {
+  }
   #leftLineMenu {
     height: 0px;
   }
@@ -251,5 +259,30 @@
   #menuButton {
     width: 30vw;
     font-size: 20px;
+  }
+  #locationTitle {
+    font-size: 24px;
+  }
+
+  .addressLocation p {
+    font-size: 24px;
+  }
+
+  .Location {
+    height: 100vh;
+  }
+
+  #hours h1 {
+    font-size: 24px;
+  }
+
+  #leftLocationDiv {
+    height: 100vh;
+  }
+  #leftLocationDiv img {
+    height: 100vh;
+  }
+  #rightLocationDiv {
+    height: 100vh;
   }
 }
