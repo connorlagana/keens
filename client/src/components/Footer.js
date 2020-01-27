@@ -20,6 +20,7 @@ const Footer = () => (
       <h1 className="address">72 West 36 Street New York</h1>
       <h1 className="address">NY 10018</h1>
     </div>
+    <a href="#header"><div id="backToTop"><h2>Top</h2></div></a>
   </footer>
 );
 
