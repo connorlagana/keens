@@ -1,0 +1,26 @@
+.Menu {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#leftMenuDiv {
+  width: 50vw;
+  height: 90vh;
+}
+#leftMenuDiv img {
+  width: 50vw;
+  height: 90vh;
+}
+#rightMenuDiv {
+  width: 50vw;
+  height: 90vh;
+  background-color: black;
+}
+
+#menuDivMenu {
+  color: white;
+}
