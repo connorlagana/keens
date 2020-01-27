@@ -131,7 +131,7 @@
 
 #menuTitleDiv {
   letter-spacing: 0.3em;
-  line-height: 1;
+  /* line-height: 1; */
   font-size: 45px;
   display: flex;
   justify-content: center;
@@ -210,6 +210,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
 }
 
 #locationTitle {
@@ -218,7 +219,6 @@
   margin-right: -8px;
   font-family: Kailasa;
   font-size: 40px;
-  height: 5vh;
 }
 
 #leftLineLocation {
@@ -433,5 +433,73 @@
   }
   #rightLocationDiv {
     height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 1370px) {
+  .Location {
+    height: 100vh;
+  }
+
+  #leftLineMenu {
+    width: 5vw;
+  }
+
+  #menuTitle {
+    font-size: 24px;
+  }
+
+  #locationTitle {
+    font-size: 24px;
+  }
+
+  #hours h1 {
+    font-size: 24px;
+  }
+
+  #leftLineLocation {
+    width: 5vw;
+    margin: 10px;
+  }
+
+  .specialsMenu {
+    font-size: 20px;
+  }
+
+  #menuButton {
+    font-size: 18px;
+  }
+
+  .addressLocation p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1270px) {
+  .Menu {
+    height: 100vh;
+  }
+  #rightMenuDiv {
+    height: 100vh;
+  }
+  #leftMenuDiv {
+    height: 100vh;
+  }
+  #leftMenuDiv img {
+    height: 100vh;
+  }
+  #menuButton {
+    font-size: 10px;
+    width: 20vw;
+    height: 7vh;
+    margin-bottom: 15px;
+  }
+
+  #aboutMission p {
+    font-size: 16px;
+  }
+
+  .review {
+    font-size: 14px;
   }
 }
