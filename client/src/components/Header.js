@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 class Header extends Component {
   render() {
     return (
-      <div className="header">
+      <div className="header" id="header">
         <div className="logo">
           <img src="https://imgur.com/CbhUXUB.png" alt="logo" className="logoImage"/>
         </div>

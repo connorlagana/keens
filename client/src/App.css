@@ -421,9 +421,32 @@ html {
 .polygon:hover {
   opacity: 0.3;
 }
+
+#backToTop{
+  height: 7vh;
+  width: 5vw;
+  background-color: white;
+  opacity: 0.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: kailasa;
+  border-radius: 0.5em;
+  margin-left: 93vw;
+}
+
+#backToTop:hover{
+  opacity: 0.7;
+  background-color: red;
+}
+
+a {
+  text-decoration: none;
+}
+
+
 @media only screen and (max-width: 600px) {
-  * {
-  }
+  
   #leftLineMenu {
     height: 0px;
   }
