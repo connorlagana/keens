@@ -6,16 +6,17 @@ import Hero from './components/Hero'
 import Location from "./components/Location.js";
 import Menu from "./components/Menu.js";
 import About from "./components/About.js";
-import Footer from "./components/Footer.js"
+import Footer from "./components/Footer.js";
+import Review from "./components/Review.js";
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <h1>Hello World</h1> */}
         <Hero />
         <About />
+        <Review />
         <Menu />
         <Location />
         <Footer />
