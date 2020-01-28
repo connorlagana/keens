@@ -459,16 +459,17 @@ html {
 
 #backToTop:hover{
   opacity: 0.7;
-  background-color: red;
+  background-color: rgb(207, 198, 198);
 }
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 .nameTitle{
   /* background-color: rgba(0,0,0,0.5); */
-  text-shadow: 3px 3px #000000;
+  /* text-shadow: 3px 3px #000000; */
   padding: 3vw 3vh;
   border-radius: 3em;
 }
