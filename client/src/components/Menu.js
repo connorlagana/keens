@@ -6,7 +6,7 @@ class Menu extends Component {
     return (
       <div className="Menu">
         <div id="leftMenuDiv">
-          <img src={imageMenu} alt="loading" id="paintingPic"/>
+          <img src={imageMenu} alt="loading" id="paintingPic" />
         </div>
         <div id="rightMenuDiv">
           <div id="menuTitleDiv">
@@ -25,9 +25,7 @@ class Menu extends Component {
             <p>Specialized Drinks</p>
             <p>Wine</p>
           </div>
-          <div>
-            <button id="menuButton">Private Events</button>
-          </div>
+          <button id="menuButton">Private Events</button>
         </div>
       </div>
     );
