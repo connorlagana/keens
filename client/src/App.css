@@ -618,3 +618,97 @@ a {
     font-size: 14px;
   }
 }
+
+@media only screen and (max-width: 360px){
+
+  .header{
+    height: 15vh;
+    background-color: black;
+  }
+
+  .logo {
+    height: 10vh;
+    margin: 0 auto;
+    /* margin-top: 0; */
+    width: 25vw;
+    border: 4px solid red;
+  }
+
+  .logoImage {
+    width: 30vw;
+    margin-top: 3vh;
+  }
+
+  .nav {
+    height: 2.5vh;
+    display: flex;
+    margin-left: 10vw;
+    margin-top: 0;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+    width: 80vw;
+    border: 4px solid red;
+  }
+
+  .nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 249px;
+    height: 35px; */
+    font-family: Kailasa;
+    font-size: 0.1em;
+    font-weight: 200;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 2px;
+    transition: 0.2s ease;
+  }
+
+  .resturantName {
+    width: 100vw;
+    height: 10vh;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.5em;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 auto;
+    /* margin-bottom: 2vh; */
+    border: 4px solid red;
+  }
+
+  .Reservations {
+    border: 4px solid red;
+    align-items: center;
+    height: 5vh;
+    width: 40vw;
+    margin-top: 1vh;
+    font-size: 0.5em;
+  }
+
+  .aboutSection {
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-top: 10vh;
+    margin-bottom: 3vh;
+  }
+
+  #leftMenuDiv img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    margin-bottom: 2vh;
+    border: 4px solid red;
+  }
+
+
+}
