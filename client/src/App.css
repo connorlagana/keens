@@ -47,16 +47,22 @@
   height: 35px;
   font-family: Kailasa;
   font-size: 1.1em;
-  font-weight: bold;
+  font-weight: 200;
   font-stretch: normal;
   font-style: normal;
   letter-spacing: 5px;
   color: #ffffff;
   text-decoration: none;
   margin: 2px;
+  transition: 0.2s ease;
 }
 
-.nav a:hover{
+.nav a:hover {
+  color: #050221;
+  font-weight: 900;
+}
+
+.nav a:hover {
   font-size: 1.3em;
 }
 
@@ -214,7 +220,7 @@ html {
   background-color: white;
 }
 
-iframe{
+iframe {
   width: 40vw;
   height: 80vh;
 }
@@ -309,6 +315,7 @@ iframe{
   font-size: 45px;
   line-height: 1.29;
   letter-spacing: 9px;
+  text-align: center;
 }
 
 #leftLineAbout {
@@ -424,7 +431,7 @@ iframe{
   justify-content: center;
 }
 
-#scroll{
+#scroll {
   margin: -7vh auto;
   width: 8vw;
   height: 10vh;
@@ -444,7 +451,7 @@ iframe{
   opacity: 0.3;
 }
 
-#backToTop{
+#backToTop {
   height: 7vh;
   width: 5vw;
   background-color: white;
@@ -457,7 +464,7 @@ iframe{
   margin-left: 93vw;
 }
 
-#backToTop:hover{
+#backToTop:hover {
   opacity: 0.7;
   background-color: rgb(207, 198, 198);
 }
@@ -467,30 +474,31 @@ a {
   color: black;
 }
 
-.nameTitle{
+.nameTitle {
   /* background-color: rgba(0,0,0,0.5); */
   /* text-shadow: 3px 3px #000000; */
   padding: 3vw 3vh;
   border-radius: 3em;
 }
 
-
 @media only screen and (max-width: 600px) {
-  
+  .App {
+  }
   #leftLineMenu {
     height: 0px;
   }
 
   #leftLineLocation {
-    height: 0px;
+    height: 3px;
   }
 
   #menuButton {
     width: 30vw;
     font-size: 20px;
   }
-  #locationTitle {
-    font-size: 24px;
+
+  #locationTitleDiv p {
+    font-size: 20px;
   }
 
   .addressLocation p {
@@ -499,6 +507,7 @@ a {
 
   .Location {
     height: 100vh;
+    flex-direction: column-reverse;
   }
 
   #hours h1 {
@@ -506,13 +515,40 @@ a {
   }
 
   #leftLocationDiv {
-    height: 100vh;
+    height: 50vh;
+    width: 100vw;
   }
-  #leftLocationDiv img {
-    height: 100vh;
+  #googleMaps {
+    height: 50vh;
+    width: 100vw;
   }
   #rightLocationDiv {
     height: 100vh;
+    width: 100vw;
+  }
+
+  #belowHours p {
+    font-size: 16px;
+  }
+
+  .Menu {
+    height: 100vh;
+    flex-direction: column-reverse;
+  }
+
+  #rightMenuDiv {
+    height: 50vh;
+    width: 100vw;
+    background-color: aqua;
+  }
+  #leftMenuDiv {
+    height: 10px;
+    width: 100vw;
+  }
+
+  #leftMenuDiv img {
+    height: 10px;
+    width: 100vw;
   }
 }
 

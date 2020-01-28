@@ -6,7 +6,7 @@ class Menu extends Component {
     return (
       <div className="Menu">
         <div id="leftMenuDiv">
-          <img src={imageMenu} alt="loading" />
+          <img src={imageMenu} alt="loading" id="paintingPic"/>
         </div>
         <div id="rightMenuDiv">
           <div id="menuTitleDiv">
