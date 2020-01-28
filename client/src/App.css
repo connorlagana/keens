@@ -482,6 +482,8 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
+  .App {
+  }
   #leftLineMenu {
     height: 0px;
   }
@@ -505,7 +507,7 @@ a {
 
   .Location {
     height: 100vh;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   #hours h1 {
@@ -531,22 +533,22 @@ a {
 
   .Menu {
     height: 100vh;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   #rightMenuDiv {
-    width: 100vw;
     height: 50vh;
+    width: 100vw;
     background-color: aqua;
   }
   #leftMenuDiv {
+    height: 10px;
     width: 100vw;
-    height: 50vh;
   }
 
   #leftMenuDiv img {
+    height: 10px;
     width: 100vw;
-    height: 50vh;
   }
 }
 
