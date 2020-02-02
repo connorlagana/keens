@@ -6,15 +6,18 @@ class Hero extends Component {
     return (
       <div className="hero">
         <Slider />
-        <div className="resturantName">
-          <div className="nameTitle"><h1>KEEN'S STEAK HOUSE</h1></div>
-          <button className="Reservations">Reservations</button>
-        </div>
-        <a href="#about">
-          <div className="polygon">
-            <h3 id="scroll">scroll</h3>
+        <div className="rest">
+          <div className="resturantName">
+            <div className="nameTitle">
+              <h1>KEEN'S STEAK HOUSE</h1>
+            </div>
+            <button className="Reservations">Reservations</button>
           </div>
-        </a>
+          <a href="#about">
+            <div className="polygon">
+            </div>
+          </a>
+        </div>
       </div>
     );
   }
