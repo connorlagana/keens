@@ -3,9 +3,10 @@ import AwesomeSlider from "react-awesome-slider";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
 // import AwesomeSliderStyles from "react-awesome-slider/src/styled/fold-out-animation/fold-out-animation.scss";
 import AwesomeSliderStyles from "react-awesome-slider/dist/styles.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
-import image_1 from "../images/image4.png";
+import image_1 from "../images/image5.jpg";
 import image_2 from "../images/image1.jpg";
 import image_3 from "../images/image2.jpg";
 import image_4 from "../images/image3.jpg";

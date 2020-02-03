@@ -13,7 +13,7 @@ class Header extends Component {
           <Link to="#">About</Link>
           <Link to="#">Menus</Link>
           <Link to="#">Private Events</Link>
-          <Link to="#">Galley</Link>
+          <Link to="#">Gallery</Link>
           <Link to="#">Contacts</Link>
         </div>
       </div>
