@@ -3,7 +3,7 @@
 Keen's Steakhouse is a widely renown steakhouse. They offer top quality steaks that don't come cheap. While their food might be good, their website...well isn't.
 I found it to be entertaining to redesign and remake their website to practice my CSS skills with some friends!
 
-[Visit Keen's website here](keens.surge.sh)
+[Visit Keen's website here](http://keens.surge.sh)
 
 ## The Final Product
 
